@@ -6,7 +6,7 @@
 
 - Post -> date:date rationale:text
 x User -> Device
-- Adminuser -> STI
+x Adminuser -> STI
 
 ## Features:
 
