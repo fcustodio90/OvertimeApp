@@ -5,7 +5,7 @@
 ## Models
 
 - Post -> date:date rationale:text
-- User -> Device
+x User -> Device
 - Adminuser -> STI
 
 ## Features:
