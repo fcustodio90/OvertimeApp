@@ -4,9 +4,9 @@
 
 ## Models
 
-- Post -> date:date rationale:text
-x User -> Device
-x Adminuser -> STI
+- X Post -> date:date rationale:text
+- X User -> Device
+- X Adminuser -> STI
 
 ## Features:
 
@@ -19,3 +19,7 @@ x Adminuser -> STI
 ## UI:
 
 - Bootstrap -> formatting
+
+## Refactor TODOS:
+
+-Refactor user association integration test in post_spec
