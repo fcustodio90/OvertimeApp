@@ -1,9 +1,11 @@
 /*external libraries*/
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'gritter';
 
 /*views*/
 @import 'posts.scss';
 
 /*components*/
 @import 'components/navbar';
+
