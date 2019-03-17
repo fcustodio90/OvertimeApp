@@ -7,7 +7,7 @@
 module Admin
 
   def self.types
-    ['AdminUser', 'SuperAdmin', 'AnyAdmin']
+    ['AdminUser']
   end
 
   class ApplicationController < Administrate::ApplicationController
