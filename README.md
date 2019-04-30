@@ -7,6 +7,7 @@
 - X Post -> date:date rationale:text
 - X User -> Device
 - X Adminuser -> STI
+- AuditLog
 
 ## Features:
 
@@ -20,9 +21,9 @@
 ## UI:
 
 - X Bootstrap -> formatting
-- Icons from Font Awesome
+- X Icons from Bootstrap
 - X Update the styles for forms
 
 ## Refactor TODOS:
 
-- Refactor posts/_form for admin user with status
+- X Refactor posts/_form for admin user with status
