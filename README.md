@@ -26,6 +26,3 @@
 
 ## TODOS:
 
-- Integrate validation for phone attribute in User:
-  - # no spaces or dashes
-  - # exactly 10 characters (need to check for Portugal)
