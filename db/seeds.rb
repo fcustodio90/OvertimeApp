@@ -1,5 +1,16 @@
-@user = User.create(email: 'test@test.com', password: 123456, password_confirmation: 123456, first_name: 'John', last_name: 'Snow')
-admin = AdminUser.create(email: 'admin@test.com', password: 123456, password_confirmation: 123456, first_name: 'Admin', last_name: 'User')
+@user = User.create(email: 'test@test.com',
+                    password: 123456,
+                    password_confirmation: 123456,
+                    first_name: 'John',
+                    last_name: 'Snow',
+                    phone: '351915990767')
+
+admin = AdminUser.create(email: 'admin@test.com',
+                         password: 123456,
+                         password_confirmation: 123456,
+                         first_name: 'Admin',
+                         last_name: 'User',
+                         phone: '351915990767')
 
 100.times do |post|
   Post.create!(date: Date.today, rationale: "#{post} rationale content", user_id: @user.id, overtime_request: 2.5)

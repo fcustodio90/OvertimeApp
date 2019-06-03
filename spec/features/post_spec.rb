@@ -35,7 +35,8 @@ describe 'navigate' do
                                last_name: 'Authorized',
                                email: 'asdfasdf@asdf.com',
                                password: 123456,
-                               password_confirmation: 123456)
+                               password_confirmation: 123456,
+                               phone: '555555555555')
       post_from_other_user = Post.create(date: Date.today, rationale: "This post shouldn't be seen", user_id: other_user.id, overtime_request: 3.5)
       visit posts_path
       expect(page).to_not have_content(/This post shouldn't be seen/)
