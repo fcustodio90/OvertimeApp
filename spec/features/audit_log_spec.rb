@@ -27,7 +27,6 @@ describe 'AuditLog Feature' do
 
       expect(current_path).to eq(root_path)
     end
-
   end
-
 end
+
