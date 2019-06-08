@@ -8,7 +8,15 @@ module ApplicationHelper
     status_span_generator(status)
   end
 
+  def is_admin?
+    types.include?(current_user.type)
+  end
+
   private
+
+    def types
+      ['AdminUser']
+    end
 
     def status_span_generator(status)
       case status
