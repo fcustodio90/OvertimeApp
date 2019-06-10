@@ -26,5 +26,4 @@
 
 ## TODOS:
 
-- Add AJAX pagination 
 
