@@ -11,6 +11,9 @@ class Post < ApplicationRecord
 
   private
 
+    # TODO FIX THIS BUG.
+    # RSPEC IS CRASHING BECAUSE AFTER SAVING POSTS (WHEN SEEDING) AUDITLOGS DO NOT EXIST!
+
     def update_audit_log
       audit_log = AuditLog.where(user_id: self.user_id, start_date: (self.date - 7.days..self.date)).last
       audit_log.confirmed!
