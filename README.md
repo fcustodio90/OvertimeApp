@@ -28,4 +28,6 @@
 
 - Twilio API SMS is fully implemented but request is not sucessfully made because in Portugal the free trial doesn't include a twilio number I had to actually pay one unlike the US trial - Source youtube.
 
+- Fix Rspec -> post.rb regarding Auditlogs after saving posts.
+
 
