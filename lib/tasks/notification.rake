@@ -22,7 +22,6 @@ namespace :notification do
 
     if submitted_posts.count > 0
       admin_users.each do |admin|
-        byebug
         ManagerMailer.email(admin).deliver_later
       end
     end
