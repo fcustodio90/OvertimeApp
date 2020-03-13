@@ -40,7 +40,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise', '~> 4.2'
 gem 'gritter', '~> 1.2'
-gem 'administrate', '~> 0.11.0'
+gem 'administrate', '~> 0.13.0'
 gem 'bourbon'
 gem 'pundit', '~> 2.0', '>= 2.0.1'
 gem 'twilio-ruby', '~> 4.11', '>= 4.11.1'
